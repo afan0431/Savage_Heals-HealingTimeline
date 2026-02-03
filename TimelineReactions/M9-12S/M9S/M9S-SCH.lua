@@ -25,8 +25,8 @@ local tbl =
 				},
 				mechanicTime = 30.6,
 				name = "跑快快",
-				timeRange = true,
 				timelineIndex = 4,
+				timerOffset = -3,
 				timerStartOffset = -3,
 				uuid = "b3baecef-402e-0e8f-b78b-76fe3375daa5",
 				version = 2,
@@ -87,9 +87,8 @@ local tbl =
 				},
 				mechanicTime = 30.6,
 				name = "慰藉",
-				timeRange = true,
 				timelineIndex = 4,
-				timerOffset = -2,
+				timerOffset = 3,
 				timerStartOffset = 3,
 				uuid = "69b18470-5c3c-1820-bfd1-d2adce290de4",
 				version = 2,
@@ -106,6 +105,9 @@ local tbl =
 			},
 			inheritedIndex = 8,
 			inheritedObjectUUID = "b3cc653e-b955-f572-81db-b5c1ca136842",
+			inheritedOverwrites = 
+			{
+			},
 		},
 	},
 	[8] = 
@@ -217,35 +219,6 @@ local tbl =
 					{
 						data = 
 						{
-							aType = "ACR",
-							gVar = "ACR_RikuSCH3_NaturalED",
-							gVarValue = 2,
-							uuid = "9ed383eb-72e4-f03c-bd05-83522719d82e",
-							version = 2.1,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 46.7,
-				name = "关豆子",
-				timelineIndex = 9,
-				uuid = "9074143f-3f51-368c-8319-4b7cbc3a43ff",
-				version = 2,
-			},
-			inheritedIndex = 3,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
 							actionID = 188,
 							conditions = 
 							{
@@ -303,6 +276,36 @@ local tbl =
 				uuid = "e6ec61f1-48d5-4e48-ae3f-0a4561e019f0",
 				version = 2,
 			},
+			inheritedIndex = 3,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuSCH3_NaturalED",
+							gVarValue = 2,
+							uuid = "9ed383eb-72e4-f03c-bd05-83522719d82e",
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 46.7,
+				name = "关豆子",
+				timelineIndex = 9,
+				uuid = "9074143f-3f51-368c-8319-4b7cbc3a43ff",
+				version = 2,
+			},
+			inheritedIndex = 4,
 		},
 		
 		{
@@ -377,35 +380,6 @@ local tbl =
 						data = 
 						{
 							aType = "ACR",
-							gVar = "ACR_RikuSCH3_Healbar_FeyBlessing",
-							uuid = "9fb2f90a-8dbf-f158-ada4-12d0d27ad25b",
-							variableTogglesType = 3,
-							version = 2.1,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 60.7,
-				name = "祥光",
-				timelineIndex = 11,
-				timerOffset = 2,
-				uuid = "f6104f77-1ad7-93e5-b06d-dcb11431d7e5",
-				version = 2,
-			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "ACR",
 							gVar = "ACR_RikuSCH3_Healbar_Seraphism",
 							uuid = "82336e0a-c88b-c095-a742-a6a8f9819ff4",
 							variableTogglesType = 3,
@@ -426,6 +400,35 @@ local tbl =
 				version = 2,
 			},
 			inheritedIndex = 2,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuSCH3_Healbar_FeyBlessing",
+							uuid = "9fb2f90a-8dbf-f158-ada4-12d0d27ad25b",
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 60.7,
+				name = "祥光",
+				timelineIndex = 11,
+				timerOffset = 2,
+				uuid = "f6104f77-1ad7-93e5-b06d-dcb11431d7e5",
+				version = 2,
+			},
 		},
 	},
 	[12] = 
@@ -837,9 +840,8 @@ local tbl =
 				},
 				mechanicTime = 137.9,
 				name = "罩子",
-				timeRange = true,
 				timelineIndex = 47,
-				timerOffset = -8,
+				timerOffset = -2,
 				timerStartOffset = -2,
 				uuid = "f728b8c4-0dcd-a539-82da-7ec4b0c7febe",
 				version = 2,
@@ -931,8 +933,8 @@ local tbl =
 				},
 				mechanicTime = 152.3,
 				name = "跑快快",
-				timeRange = true,
 				timelineIndex = 49,
+				timerOffset = -2,
 				timerStartOffset = -2,
 				uuid = "999a43da-38d2-3cf9-9604-09cb14be9f3d",
 				version = 2,
@@ -1092,9 +1094,8 @@ local tbl =
 				},
 				mechanicTime = 171.3,
 				name = "罩子",
-				timeRange = true,
 				timelineIndex = 51,
-				timerOffset = -8,
+				timerOffset = -1,
 				timerStartOffset = -1,
 				uuid = "d90c22dc-ea7a-d70b-879f-3b121e24f402",
 				version = 2,
@@ -1157,10 +1158,40 @@ local tbl =
 				},
 				mechanicTime = 219.7,
 				name = "绿帽",
-				timeRange = true,
 				timelineIndex = 58,
+				timerOffset = -3,
 				timerStartOffset = -3,
 				uuid = "73fd410e-2c88-d3bc-ac1c-4b1e8844257a",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuSCH3_Healbar_FeyUnion",
+							targetType = "Main Tank",
+							uuid = "7a53875d-8579-05e8-8ab8-311a3596d6a7",
+							variableIsHover = true,
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 219.7,
+				name = "肠子",
+				timelineIndex = 58,
+				uuid = "2b66b1f4-087d-4017-a7f3-e2ee459256d7",
 				version = 2,
 			},
 		},
@@ -1224,7 +1255,7 @@ local tbl =
 				mechanicTime = 240.9,
 				name = "祥光",
 				timelineIndex = 64,
-				timerOffset = 2,
+				timerOffset = 3,
 				uuid = "efd7e5e1-fd98-0115-86a1-0b21c7c9ce9e",
 				version = 2,
 			},
@@ -1293,9 +1324,8 @@ local tbl =
 				},
 				mechanicTime = 248.9,
 				name = "罩子",
-				timeRange = true,
 				timelineIndex = 67,
-				timerOffset = -8,
+				timerOffset = 1,
 				timerStartOffset = 2,
 				uuid = "b3b1e8ca-81d1-21e4-b5c5-3636ea8e2101",
 				version = 2,
@@ -1482,7 +1512,7 @@ local tbl =
 				mechanicTime = 270.1,
 				name = "大仙女",
 				timelineIndex = 69,
-				timerOffset = -10,
+				timerOffset = -6,
 				uuid = "67cebc3e-3262-6951-ba62-38944ac0acd8",
 				version = 2,
 			},
@@ -1511,16 +1541,18 @@ local tbl =
 				},
 				mechanicTime = 270.1,
 				name = "慰藉",
-				timeRange = true,
 				timelineIndex = 69,
 				timerEndOffset = -1,
-				timerOffset = 7,
+				timerOffset = -4,
 				timerStartOffset = -6,
 				uuid = "73c98463-b9ed-d88b-9eb7-b51e516c8e45",
 				version = 2,
 			},
 			inheritedIndex = 2,
 		},
+	},
+	[71] = 
+	{
 		
 		{
 			data = 
@@ -1542,21 +1574,17 @@ local tbl =
 				conditions = 
 				{
 				},
-				mechanicTime = 270.1,
+				mechanicTime = 283.1,
 				name = "慰藉",
-				timeRange = true,
-				timelineIndex = 69,
+				timelineIndex = 71,
 				timerEndOffset = 12,
-				timerOffset = 7,
-				timerStartOffset = 5,
-				uuid = "d6158eb2-024a-98d3-89ad-ba91b4132025",
+				timerOffset = -4,
+				timerStartOffset = -2,
+				uuid = "ba831de8-695e-4a29-b890-344f14cb9b8d",
 				version = 2,
 			},
-			inheritedIndex = 3,
+			inheritedIndex = 1,
 		},
-	},
-	[71] = 
-	{
 		
 		{
 			data = 
@@ -1618,9 +1646,8 @@ local tbl =
 				},
 				mechanicTime = 283.1,
 				name = "罩子",
-				timeRange = true,
 				timelineIndex = 71,
-				timerOffset = -8,
+				timerOffset = -2,
 				timerStartOffset = -1,
 				uuid = "6c10ed14-8c85-0359-aac0-effb4a267d31",
 				version = 2,
@@ -1774,6 +1801,70 @@ local tbl =
 					{
 						data = 
 						{
+							aType = "ACR",
+							gVar = "ACR_RikuSCH3_Healbar_Seraphism",
+							uuid = "82336e0a-c88b-c095-a742-a6a8f9819ff4",
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 322.4,
+				name = "附体",
+				timelineIndex = 79,
+				timerEndOffset = -6,
+				timerOffset = -5,
+				timerStartOffset = -10,
+				uuid = "4d02f737-77d0-e404-8180-4a2ed6859c64",
+				version = 2,
+			},
+			inheritedIndex = 1,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuSCH3_Healbar_Concitation",
+							uuid = "3684bd69-ccf7-51c8-8d28-08b5884752e1",
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 322.4,
+				name = "群盾",
+				timelineIndex = 79,
+				timerEndOffset = -3,
+				timerOffset = -3,
+				timerStartOffset = -6,
+				uuid = "d60e774d-651a-5c79-9235-2d4762957a35",
+				version = 2,
+			},
+			inheritedIndex = 2,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
 							actionID = 188,
 							conditions = 
 							{
@@ -1826,9 +1917,8 @@ local tbl =
 				},
 				mechanicTime = 322.4,
 				name = "罩子",
-				timeRange = true,
 				timelineIndex = 79,
-				timerOffset = -8,
+				timerOffset = -1,
 				timerStartOffset = -2,
 				uuid = "cbfe1aaa-6c33-f55d-b1ad-aed09a7c1dc0",
 				version = 2,
@@ -1873,122 +1963,6 @@ local tbl =
 						data = 
 						{
 							aType = "ACR",
-							gVar = "ACR_RikuSCH3_Healbar_Seraphism",
-							uuid = "82336e0a-c88b-c095-a742-a6a8f9819ff4",
-							variableTogglesType = 3,
-							version = 2.1,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 322.4,
-				name = "附体",
-				timeRange = true,
-				timelineIndex = 79,
-				timerEndOffset = -6,
-				timerStartOffset = -10,
-				uuid = "4d02f737-77d0-e404-8180-4a2ed6859c64",
-				version = 2,
-			},
-			inheritedIndex = 3,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "ACR",
-							gVar = "ACR_RikuSCH3_Healbar_Concitation",
-							uuid = "3684bd69-ccf7-51c8-8d28-08b5884752e1",
-							variableTogglesType = 3,
-							version = 2.1,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 322.4,
-				name = "群盾",
-				timeRange = true,
-				timelineIndex = 79,
-				timerEndOffset = -3,
-				timerStartOffset = -6,
-				uuid = "d60e774d-651a-5c79-9235-2d4762957a35",
-				version = 2,
-			},
-			inheritedIndex = 4,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "ACR",
-							conditions = 
-							{
-								
-								{
-									"dd38a2bc-7326-9e2f-9972-63fcc2e42413",
-									true,
-								},
-							},
-							gVar = "ACR_RikuSCH3_Healbar_Concitation",
-							uuid = "3684bd69-ccf7-51c8-8d28-08b5884752e1",
-							variableTogglesType = 3,
-							version = 2.1,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							category = "Party",
-							comparator = 2,
-							conditionType = 2,
-							hpValue = 30,
-							partyTargetSubType = "Lowest HP",
-							uuid = "dd38a2bc-7326-9e2f-9972-63fcc2e42413",
-							version = 2,
-						},
-					},
-				},
-				mechanicTime = 322.4,
-				name = "群盾",
-				timeRange = true,
-				timelineIndex = 79,
-				timerStartOffset = -3,
-				uuid = "dbd1e071-0cc1-68e6-9501-0a5dffd94924",
-				version = 2,
-			},
-			inheritedIndex = 5,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "ACR",
 							conditions = 
 							{
 								
@@ -1996,13 +1970,8 @@ local tbl =
 									"071797a8-94bc-0cbf-be16-628a95e23182",
 									true,
 								},
-								
-								{
-									"033b3f7c-4bae-995b-b094-a9ce67736967",
-									true,
-								},
 							},
-							gVar = "ACR_RikuSCH3_Healbar_Adloquium",
+							gVar = "ACR_RikuSCH3_Healbar_FeyUnion",
 							subtypeRangeCheckSourceType = "ContentID",
 							targetType = "Detection Target",
 							uuid = "7024b87b-de21-a0ed-a3aa-2478b6a91eed",
@@ -2033,24 +2002,37 @@ local tbl =
 							{
 								
 								{
-									"033b3f7c-4bae-995b-b094-a9ce67736967",
+									"f9e846cc-53c8-b985-9d78-a479f6d00260",
 									true,
 								},
 							},
+							filterTargetSubtype = "Lowest HP",
 							filterTargetType = "Party",
 							uuid = "071797a8-94bc-0cbf-be16-628a95e23182",
 							version = 2,
 						},
 					},
+					
+					{
+						data = 
+						{
+							category = "Party",
+							comparator = 2,
+							conditionType = 2,
+							hpValue = 30,
+							uuid = "f9e846cc-53c8-b985-9d78-a479f6d00260",
+							version = 2,
+						},
+					},
 				},
 				mechanicTime = 322.4,
-				name = "单盾给切伤",
+				name = "肠子给低hp",
 				randomOffset = 14,
 				timeRange = true,
 				timelineIndex = 79,
-				timerEndOffset = 14,
+				timerEndOffset = 20,
 				timerOffset = -6,
-				timerStartOffset = -6,
+				timerStartOffset = -10,
 				uuid = "4229db2d-eeaa-f689-a114-31a74050d3aa",
 				version = 2,
 			},
@@ -2058,38 +2040,6 @@ local tbl =
 	},
 	[83] = 
 	{
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "ACR",
-							gVar = "ACR_RikuSCH3_Healbar_Concitation",
-							uuid = "3684bd69-ccf7-51c8-8d28-08b5884752e1",
-							variableTogglesType = 3,
-							version = 2.1,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 355.5,
-				name = "群盾",
-				timeRange = true,
-				timelineIndex = 83,
-				timerEndOffset = 10,
-				timerStartOffset = -10,
-				uuid = "afcf879c-b29a-7b70-a0ff-cb4c2fc53871",
-				version = 2,
-			},
-			inheritedIndex = 1,
-		},
 		
 		{
 			data = 
@@ -2151,9 +2101,8 @@ local tbl =
 				},
 				mechanicTime = 355.5,
 				name = "罩子",
-				timeRange = true,
 				timelineIndex = 83,
-				timerOffset = -8,
+				timerOffset = -2,
 				timerStartOffset = -1,
 				uuid = "4f7f4026-471c-8e35-a824-01910001505c",
 				version = 2,
@@ -2216,8 +2165,8 @@ local tbl =
 				},
 				mechanicTime = 369.9,
 				name = "跑快快",
-				timeRange = true,
 				timelineIndex = 85,
+				timerOffset = -2,
 				timerStartOffset = -2,
 				uuid = "ab70e7d5-a2fc-771d-b1c5-2272c241f0f3",
 				version = 2,
@@ -2288,9 +2237,8 @@ local tbl =
 				},
 				mechanicTime = 388.9,
 				name = "罩子",
-				timeRange = true,
 				timelineIndex = 87,
-				timerOffset = -8,
+				timerOffset = -2,
 				timerStartOffset = -2,
 				uuid = "6a3aaeb6-711e-f43c-a33f-21cde7c512eb",
 				version = 2,
@@ -2299,67 +2247,6 @@ local tbl =
 	},
 	[90] = 
 	{
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "ACR",
-							gVar = "ACR_RikuSCH3_Healbar_Recitation",
-							uuid = "9ed383eb-72e4-f03c-bd05-83522719d82e",
-							variableTogglesType = 3,
-							version = 2.1,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 400,
-				name = "秘策",
-				timelineIndex = 90,
-				timerOffset = -15,
-				uuid = "822f9ff5-8072-55d6-89df-6817d4d382b1",
-				version = 2,
-			},
-			inheritedIndex = 1,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "ACR",
-							gVar = "ACR_RikuSCH3_Healbar_Protraction",
-							uuid = "1d9cd770-3b64-1fdd-91ed-0e20ca45e157",
-							variableIsHover = true,
-							variableTogglesType = 3,
-							version = 2.1,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 400,
-				name = "自生",
-				timelineIndex = 90,
-				timerOffset = -10,
-				uuid = "eca652de-a26f-1282-8894-f498c4bf431d",
-				version = 2,
-			},
-			inheritedIndex = 2,
-		},
 		
 		{
 			data = 
@@ -2401,6 +2288,67 @@ local tbl =
 				uuid = "9584a009-e06b-c553-a73d-b2191ff6120c",
 				version = 2,
 			},
+			inheritedIndex = 1,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuSCH3_Healbar_Recitation",
+							uuid = "9ed383eb-72e4-f03c-bd05-83522719d82e",
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 400,
+				name = "秘策",
+				timelineIndex = 90,
+				timerOffset = -15,
+				uuid = "822f9ff5-8072-55d6-89df-6817d4d382b1",
+				version = 2,
+			},
+			inheritedIndex = 2,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuSCH3_Healbar_Protraction",
+							uuid = "1d9cd770-3b64-1fdd-91ed-0e20ca45e157",
+							variableIsHover = true,
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 400,
+				name = "自生",
+				timelineIndex = 90,
+				timerOffset = -10,
+				uuid = "eca652de-a26f-1282-8894-f498c4bf431d",
+				version = 2,
+			},
 			inheritedIndex = 3,
 		},
 		
@@ -2464,14 +2412,13 @@ local tbl =
 				},
 				mechanicTime = 400,
 				name = "罩子",
-				timeRange = true,
 				timelineIndex = 90,
-				timerOffset = -8,
+				timerOffset = -2,
 				timerStartOffset = -1,
 				uuid = "34933f35-66d8-19e0-9d10-9915c91f8f91",
 				version = 2,
 			},
-			inheritedIndex = 5,
+			inheritedIndex = 4,
 		},
 	},
 	[99] = 
@@ -2501,77 +2448,11 @@ local tbl =
 				mechanicTime = 422.3,
 				name = "大仙女",
 				timelineIndex = 99,
-				timerOffset = -5,
+				timerOffset = -3,
 				uuid = "1475773c-9bfb-6c09-9f45-32562c0986c9",
 				version = 2,
 			},
 			inheritedIndex = 1,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "ACR",
-							gVar = "ACR_RikuSCH3_Healbar_SummonSeraph",
-							uuid = "a1f061c4-b765-3825-a0f9-727f0f186bac",
-							variableTogglesType = 3,
-							version = 2.1,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 422.3,
-				name = "慰藉",
-				timeRange = true,
-				timelineIndex = 99,
-				timerEndOffset = 8,
-				timerOffset = 7,
-				timerStartOffset = 3,
-				uuid = "f03f2171-5449-e906-a57e-c72f482130f3",
-				version = 2,
-			},
-			inheritedIndex = 2,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "ACR",
-							gVar = "ACR_RikuSCH3_Healbar_SummonSeraph",
-							uuid = "a1f061c4-b765-3825-a0f9-727f0f186bac",
-							variableTogglesType = 3,
-							version = 2.1,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 422.3,
-				name = "慰藉",
-				timeRange = true,
-				timelineIndex = 99,
-				timerEndOffset = 15,
-				timerOffset = 7,
-				timerStartOffset = 10,
-				uuid = "a8026aaf-7a83-81ff-89b9-2a318202bbbb",
-				version = 2,
-			},
-			inheritedIndex = 3,
 		},
 		
 		{
@@ -2634,9 +2515,8 @@ local tbl =
 				},
 				mechanicTime = 422.3,
 				name = "罩子",
-				timeRange = true,
 				timelineIndex = 99,
-				timerOffset = -8,
+				timerOffset = -1,
 				timerStartOffset = -2,
 				uuid = "066cfab9-93fe-526f-b982-5fbee322ae64",
 				version = 2,
@@ -2671,8 +2551,74 @@ local tbl =
 			},
 		},
 	},
+	[102] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuSCH3_Healbar_SummonSeraph",
+							uuid = "a1f061c4-b765-3825-a0f9-727f0f186bac",
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 430.2,
+				name = "慰藉",
+				timelineIndex = 102,
+				timerEndOffset = 8,
+				timerOffset = -2,
+				timerStartOffset = 3,
+				uuid = "2668d426-f0fb-53b4-9d87-f19b87ea2120",
+				version = 2,
+			},
+			inheritedIndex = 2,
+		},
+	},
 	[111] = 
 	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							actionID = 16545,
+							gVar = "ACR_RikuSCH3_Healbar_SummonSeraph",
+							ignoreWeaveRules = true,
+							uuid = "a1f061c4-b765-3825-a0f9-727f0f186bac",
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 522.3,
+				name = "大仙女",
+				timelineIndex = 111,
+				timerOffset = -3,
+				uuid = "9c22b576-af9a-7fdb-a964-7d0a9352ad01",
+				version = 2,
+			},
+			inheritedIndex = 1,
+		},
 		
 		{
 			data = 
@@ -2734,13 +2680,178 @@ local tbl =
 				},
 				mechanicTime = 522.3,
 				name = "罩子",
-				timeRange = true,
 				timelineIndex = 111,
-				timerOffset = -8,
+				timerOffset = -1,
 				timerStartOffset = -2,
-				uuid = "2c7a3a18-1fc6-30e8-8873-34a349cec70b",
+				uuid = "f6427dba-94ad-3aab-bd8c-126c9913a129",
 				version = 2,
 			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuSCH3_Healbar_WhisperingDawn",
+							uuid = "1aa05220-473d-3885-ba5e-e405ba7559b3",
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 522.3,
+				name = "低语",
+				timelineIndex = 111,
+				uuid = "91016841-ae53-5ac5-9f1a-6ed64b795e1c",
+				version = 2,
+			},
+		},
+	},
+	[115] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuSCH3_Healbar_SummonSeraph",
+							uuid = "a1f061c4-b765-3825-a0f9-727f0f186bac",
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 530.2,
+				name = "慰藉",
+				timelineIndex = 115,
+				timerEndOffset = 8,
+				timerOffset = -2,
+				timerStartOffset = 3,
+				uuid = "ddaf59ff-ba72-ec24-8c67-9233a4be91c5",
+				version = 2,
+			},
+			inheritedIndex = 2,
+		},
+	},
+	[121] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							actionID = 188,
+							conditions = 
+							{
+								
+								{
+									"52768b66-a6c7-4fd1-a5d9-075b861dd475",
+									true,
+								},
+								
+								{
+									"475254df-54da-eb41-a152-e910d5a65008",
+									true,
+								},
+							},
+							gVar = "ACR_RikuSCH3_Healbar_SacredSoil",
+							ignoreWeaveRules = true,
+							targetType = "Current Target",
+							uuid = "5adb2ef5-27d8-caaf-afc2-04b5c76e37e7",
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							actionID = 188,
+							category = "Self",
+							comparator = 2,
+							conditionType = 4,
+							uuid = "52768b66-a6c7-4fd1-a5d9-075b861dd475",
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							category = "Self",
+							conditionType = 6,
+							gaugeValue = 1,
+							uuid = "475254df-54da-eb41-a152-e910d5a65008",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 552.6,
+				name = "罩子",
+				timelineIndex = 121,
+				timerOffset = -2,
+				timerStartOffset = -2,
+				uuid = "89a3e371-6a40-4d14-9404-1d9bda38a6ec",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuSCH3_Healbar_SummonSeraph",
+							uuid = "a1f061c4-b765-3825-a0f9-727f0f186bac",
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 552.6,
+				name = "慰藉",
+				timelineIndex = 121,
+				timerEndOffset = 8,
+				timerOffset = -2,
+				timerStartOffset = 3,
+				uuid = "50d0c852-3c3b-9d5c-afa5-54bf93aec880",
+				version = 2,
+			},
+			inheritedIndex = 2,
 		},
 		
 		{
@@ -2763,13 +2874,353 @@ local tbl =
 				conditions = 
 				{
 				},
-				mechanicTime = 522.3,
+				mechanicTime = 552.6,
 				name = "祥光",
-				timelineIndex = 111,
+				timelineIndex = 121,
 				timerOffset = 4,
-				uuid = "27f14708-aebd-ba9d-b559-ed0c235a0597",
+				uuid = "7d301529-d46e-d74b-8e27-4a00aa269807",
 				version = 2,
 			},
+		},
+	},
+	[129] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							actionID = 16545,
+							gVar = "ACR_RikuSCH3_Healbar_SummonSeraph",
+							ignoreWeaveRules = true,
+							uuid = "a1f061c4-b765-3825-a0f9-727f0f186bac",
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 622.3,
+				name = "大仙女",
+				timelineIndex = 129,
+				timerOffset = -3,
+				uuid = "6c49c18f-7759-f3d2-bd49-fe745ebc9527",
+				version = 2,
+			},
+			inheritedIndex = 1,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							actionID = 188,
+							conditions = 
+							{
+								
+								{
+									"52768b66-a6c7-4fd1-a5d9-075b861dd475",
+									true,
+								},
+								
+								{
+									"475254df-54da-eb41-a152-e910d5a65008",
+									true,
+								},
+							},
+							gVar = "ACR_RikuSCH3_Healbar_SacredSoil",
+							ignoreWeaveRules = true,
+							targetType = "Current Target",
+							uuid = "5adb2ef5-27d8-caaf-afc2-04b5c76e37e7",
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							actionID = 188,
+							category = "Self",
+							comparator = 2,
+							conditionType = 4,
+							uuid = "52768b66-a6c7-4fd1-a5d9-075b861dd475",
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							category = "Self",
+							conditionType = 6,
+							gaugeValue = 1,
+							uuid = "475254df-54da-eb41-a152-e910d5a65008",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 622.3,
+				name = "罩子",
+				timelineIndex = 129,
+				timerOffset = -1,
+				timerStartOffset = -2,
+				uuid = "52a169b3-c6dc-f98d-8dfb-82e48f1b55bc",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuSCH3_Healbar_WhisperingDawn",
+							uuid = "1aa05220-473d-3885-ba5e-e405ba7559b3",
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 622.3,
+				name = "低语",
+				timelineIndex = 129,
+				uuid = "ba903361-fab2-bba0-b4ef-697b3c66ff6e",
+				version = 2,
+			},
+		},
+	},
+	[133] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuSCH3_Healbar_SummonSeraph",
+							uuid = "a1f061c4-b765-3825-a0f9-727f0f186bac",
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 630.2,
+				name = "慰藉",
+				timelineIndex = 133,
+				timerEndOffset = 8,
+				timerOffset = -2,
+				timerStartOffset = 3,
+				uuid = "05293049-f7bf-89c4-9178-2dc9a0d308e8",
+				version = 2,
+			},
+			inheritedIndex = 2,
+		},
+	},
+	[139] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuSCH3_Healbar_SummonSeraph",
+							uuid = "a1f061c4-b765-3825-a0f9-727f0f186bac",
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 652.6,
+				name = "慰藉",
+				timelineIndex = 139,
+				timerEndOffset = 8,
+				timerOffset = -2,
+				timerStartOffset = 3,
+				uuid = "41718f28-5d27-6370-b8c0-6e0a3b028035",
+				version = 2,
+			},
+			inheritedIndex = 2,
+		},
+	},
+	[141] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuSCH3_Healbar_SummonSeraph",
+							uuid = "a1f061c4-b765-3825-a0f9-727f0f186bac",
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 730.2,
+				name = "慰藉",
+				timelineIndex = 141,
+				timerEndOffset = 8,
+				timerOffset = -2,
+				timerStartOffset = 3,
+				uuid = "a0ce0075-534e-ce60-a616-f86a9b60bb06",
+				version = 2,
+			},
+			inheritedIndex = 2,
+		},
+	},
+	[150] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuSCH3_Healbar_SummonSeraph",
+							uuid = "a1f061c4-b765-3825-a0f9-727f0f186bac",
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 752.6,
+				name = "慰藉",
+				timelineIndex = 150,
+				timerEndOffset = 8,
+				timerOffset = -2,
+				timerStartOffset = 3,
+				uuid = "ad5f7007-d548-a893-8c7a-c8784bc1776c",
+				version = 2,
+			},
+			inheritedIndex = 2,
+		},
+	},
+	[155] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuSCH3_Healbar_SummonSeraph",
+							uuid = "a1f061c4-b765-3825-a0f9-727f0f186bac",
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 830.2,
+				name = "慰藉",
+				timelineIndex = 155,
+				timerEndOffset = 8,
+				timerOffset = -2,
+				timerStartOffset = 3,
+				uuid = "0336ebdf-1ba2-aaaf-9fda-f7df8b18bb29",
+				version = 2,
+			},
+			inheritedIndex = 2,
+		},
+	},
+	[163] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuSCH3_Healbar_SummonSeraph",
+							uuid = "a1f061c4-b765-3825-a0f9-727f0f186bac",
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 852.6,
+				name = "慰藉",
+				timelineIndex = 163,
+				timerEndOffset = 8,
+				timerOffset = -2,
+				timerStartOffset = 3,
+				uuid = "55857442-c515-8e04-9e37-a1a2aa179566",
+				version = 2,
+			},
+			inheritedIndex = 2,
 		},
 	},
 	[178] = 
@@ -2932,8 +3383,8 @@ local tbl =
 				},
 				mechanicTime = 896.9,
 				name = "跑快快",
-				timeRange = true,
 				timelineIndex = 178,
+				timerOffset = -5,
 				timerStartOffset = -5,
 				uuid = "1ed7cfaa-a1d0-2708-b2c6-8e0b0e84b585",
 				version = 2,
@@ -3001,9 +3452,8 @@ local tbl =
 				},
 				mechanicTime = 896.9,
 				name = "罩子",
-				timeRange = true,
 				timelineIndex = 178,
-				timerOffset = -8,
+				timerOffset = -1,
 				timerStartOffset = -1,
 				uuid = "731ea1f3-0d0b-0d31-9657-bb5d38ecee6b",
 				version = 2,
@@ -3197,9 +3647,8 @@ local tbl =
 				},
 				mechanicTime = 968.4,
 				name = "罩子",
-				timeRange = true,
 				timelineIndex = 195,
-				timerOffset = -8,
+				timerOffset = -2,
 				timerStartOffset = -2,
 				uuid = "f5d01bb7-7deb-a71e-977e-e7438314f7a2",
 				version = 2,
